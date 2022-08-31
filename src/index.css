@@ -7,7 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+html, body, .App, #root { 
+  height: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input, select{
+  background: transparent !important;
+}
+
+img{
+  pointer-events: none;
+}
+
+.btn{
+  transition: all 0.8s;
 }

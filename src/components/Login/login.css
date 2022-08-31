@@ -1,0 +1,31 @@
+
+#login-sec {
+    pointer-events: none;
+    height: 100%;
+    padding: 1% 10% 5%;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,244,224,1) 100%);
+}
+
+#login-sec form{
+    padding: 10% 15%;
+}
+
+.form-head{
+    margin-bottom: 7%;
+}
+
+.form-label{    
+    font-family: 'Comfortaa';
+}
+
+h2.form-brand{
+    font-size: 45px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+.form-head p {
+    white-space: nowrap;
+    font-size: large;
+    font-family: 'Comfortaa';
+}

@@ -1,0 +1,87 @@
+
+#navbar{
+    padding: 5% 0% 7%;
+}
+
+a.navbar-brand{
+    /* font-family: 'Comfortaa', cursive !important; */
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 2.3em;
+    /* color: yellow; */
+    transition: all 0.7s;
+    /* font-weight: bolder; */
+}
+
+a.navbar-brand:hover{
+    opacity: 0.8;
+    /* color: yellow; */
+}
+
+
+
+.navbar-collapse{
+    display: flex !important;
+    flex-basis: auto;
+
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row !important;
+    gap: 1em;
+}
+
+a.nav-link{
+    color: #5b5a5a;
+    font-family: 'Comfortaa', cursive !important;
+    transition: all 0.7s;
+}
+
+a.nav-link:hover{
+    color: rgb(131, 131, 0);
+}
+
+
+a{
+    text-decoration: none;
+}
+#appBar{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    #navbar{
+        padding-bottom: 3%;
+    }
+    #navbarNav{
+        display: none !important;
+    }
+    .navbar .container-fluid{
+        justify-content: center;
+    }
+
+    #appBar{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+        width: 100%;
+        padding: 4% ;
+        background: black;
+        color: #FCE7B0;
+
+        box-shadow: 0px -7px 20px 0px #5b5a5a;    
+        border-radius: 100% 0% 100% 0% / 19% 100% 0% 81% ;
+    }
+
+
+    .connect{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .connect p{
+        font-size: larger;
+    }
+}

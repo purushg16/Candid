@@ -1,0 +1,30 @@
+
+#step-sec{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.card-col {
+    display: flex;
+    justify-content: center;
+}
+
+#step-sec .style-card{
+    animation: bounce infinite;
+    animation-duration: 3s; 
+}
+
+.style-card{
+    border-radius: 90% 10% 92% 8% / 10% 90% 10% 90%  !important;
+}
+
+p.step-p{
+    font-family: 'Comfortaa', cursive;
+    /* font-size: 1rem; */
+}
+
+@media (max-width: 768px) {
+    .card-col{
+        margin-top: 7%;
+    }
+}

@@ -1,0 +1,12 @@
+
+#team-sec {
+    text-align: center;
+    padding: 7%;
+    background: #fff9ee;
+    height: 100%;
+}
+
+
+#team-sec .style-card{
+    border-radius: 95% 5% 95% 5% / 6% 91% 9% 94%  !important;
+}

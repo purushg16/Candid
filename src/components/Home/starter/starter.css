@@ -1,0 +1,27 @@
+
+section#starter-sec{
+    margin: 3% 0% 5%;
+    padding-bottom: 5%;
+    /* place-content:center;
+    font-weight:bold;
+    aspect-ratio:1; */
+    /* border-radius: 0px 99px 99px 0px; */
+}
+
+.starter-h{
+    font-size: 4.3vw;
+    /* color: yellow; */
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    word-spacing: 0.5em;
+}
+
+/* .curve{
+  border:none;
+  background:linear-gradient(135deg,#1f005c, #ffb56b);
+  --mask: 
+    radial-gradient(200px at 75% 100%,#0000 98%,#000) 50% calc(100% - 20px)/80px 100% repeat-x,
+    radial-gradient(200px at 25% 50% ,#000 99%,#0000 101%) bottom/80px 40px repeat-x;
+-webkit-mask: var(--mask);
+        mask: var(--mask);
+    } */
